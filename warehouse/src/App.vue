@@ -11,7 +11,7 @@
             <li class="collection-item">
               <router-link
                 to="/home"
-                :class="this.$route.path.endsWith('/home') ? 'active bg-primary' : ''"
+                :class="this.$route.path.endsWith('/Home') ? 'active bg-primary' : ''"
                 >Home</router-link
               >
             </li>
@@ -46,12 +46,12 @@
               </ul>
               <ul id="dropdown-menu" class="dropdown-content">
                 <li>
-                  <router-link to="/profile" class="dropdown-item"
+                  <router-link to="/Profile" class="dropdown-item"
                     ><i class="fa fa-user"></i> Profile</router-link
                   >
                 </li>
                 <li>
-                  <router-link to="/logout" class="dropdown-item"
+                  <router-link to="/Logout" class="dropdown-item"
                     ><i class="fa fa-sign-out"></i> Logout</router-link
                   >
                 </li>

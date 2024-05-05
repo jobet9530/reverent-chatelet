@@ -1,3 +1,5 @@
+import 'materialize-css/dist/js/materialize.min.js'
+
 export default {
   initView(isForm) {
     setTimeout(() => this.initPage(isForm)) //waiting for the next DOM update flush
